@@ -1,4 +1,3 @@
-import os
 import flet as ft
 import datetime
 
@@ -9,7 +8,7 @@ global json_path
 now = datetime.datetime.now() 
 str_now = now.strftime('%Y-%m-%d %H:%M:%S')
 
-
+# ウィンドウの設定
 def main(page: ft.Page):
     page.title = "Flet Example"
     page.window.width = 490
